@@ -1,4 +1,19 @@
 
+
+```python
+import pandas as pd
+```
+
+
+```python
+df = pd.read_csv("./heroes_information.csv")
+```
+
+
+```python
+import swagger_client
+```
+
 # Project - Data Cleaning
 
 ## Introduction
@@ -913,7 +928,7 @@ plt.show()
 ```
 
 
-![png](index_files/index_29_0.png)
+![png](index_files/index_32_0.png)
 
 
 
@@ -2245,7 +2260,7 @@ plt.scatter(heroes_df.Height, heroes_df.Weight)
 
 
 
-![png](index_files/index_44_1.png)
+![png](index_files/index_47_1.png)
 
 
 
@@ -2540,11 +2555,11 @@ plt.show()
 ```
 
 
-![png](index_files/index_53_0.png)
+![png](index_files/index_56_0.png)
 
 
 
-![png](index_files/index_53_1.png)
+![png](index_files/index_56_1.png)
 
 
 
@@ -2565,11 +2580,11 @@ plt.show()
 ```
 
 
-![png](index_files/index_55_0.png)
+![png](index_files/index_58_0.png)
 
 
 
-![png](index_files/index_55_1.png)
+![png](index_files/index_58_1.png)
 
 
 
@@ -2580,7 +2595,7 @@ plt.show()
 ```
 
 
-![png](index_files/index_56_0.png)
+![png](index_files/index_59_0.png)
 
 
 
@@ -2600,7 +2615,7 @@ plt.hist(np.log(df.target))
 
 
 
-![png](index_files/index_57_1.png)
+![png](index_files/index_60_1.png)
 
 
 ## Some Initial Investigation
